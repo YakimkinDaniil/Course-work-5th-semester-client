@@ -1,0 +1,308 @@
+/* Общие стили */
+.auth-container {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f8f9fa;
+    -fx-alignment: CENTER;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.auth-container .label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.auth-container .button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.auth-container .button:hover {
+    -fx-background-color: #5a6268;
+}
+
+/* Стили для таблиц */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 2, 0.0, 0, 1);
+}
+
+.column-header {
+    -fx-background-color: #e9ecef;
+    -fx-text-fill: #343a40;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
+
+/* Стили для кнопки "Назад" */
+.back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
+/* Стили для диалоговых окон */
+.dialog-container {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f8f9fa;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.dialog-container .label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.dialog-container .text-field {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+}
+
+.dialog-container .password-field {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+}
+
+.dialog-container .button {
+    -fx-background-color: #6f42c1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.dialog-container .button:hover {
+    -fx-background-color: #5a3f9f;
+}
+
+/* Стили для окна авторизации */
+.login-dialog {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.login-dialog .label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.login-dialog .text-field {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+}
+
+.login-dialog .password-field {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+}
+
+.login-dialog .button {
+    -fx-background-color: #6f42c1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.login-dialog .button:hover {
+    -fx-background-color: #5a3f9f;
+}
+
+/* Стили для главного окна */
+.student-panel {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f8f9fa;
+    -fx-alignment: CENTER;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.student-panel .label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.student-panel .button {
+    -fx-background-color: #6f42c1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.student-panel .button:hover {
+    -fx-background-color: #5a3f9f;
+}
+
+/* Стили для кнопки "Выход" в панели студента */
+.student-panel .student-panel-back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.student-panel .student-panel-back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
+/* Стили для панели инструктора */
+.instructor-panel {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f8f9fa;
+    -fx-alignment: CENTER;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.instructor-panel .label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.instructor-panel .button {
+    -fx-background-color: #6f42c1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.instructor-panel .button:hover {
+    -fx-background-color: #5a3f9f;
+}
+
+/* Стили для кнопки "Выход" в панели инструктора */
+.instructor-panel .back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.instructor-panel .back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
+/* Стили для панели админа */
+.admin-panel {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f8f9fa;
+    -fx-alignment: CENTER;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 1);
+}
+
+.admin-panel .label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+.admin-panel .button {
+    -fx-background-color: #6f42c1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.admin-panel .button:hover {
+    -fx-background-color: #5a3f9f;
+}
+
+/* Стили для кнопки "Назад" в админ-панели */
+.admin-panel .back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.admin-panel .back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
+/* Общие стили для кнопки выхода */
+.back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
+/* Стили для кнопки выхода в панели студента */
+.student-panel .back-button {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.student-panel .back-button:hover {
+    -fx-background-color: #f5c6cb;
+}
+
